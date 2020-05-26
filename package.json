@@ -1,0 +1,29 @@
+{
+  "name": "vt-bbs",
+  "version": "0.0.1",
+  "description": "vt bbs like style module",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "test": "test",
+    "build": "webpack --config webpack.config.js --mode production",
+    "dev": "webpack-dev-server --open --mode development"
+  },
+  "keywords": [
+    "scss",
+    "vt"
+  ],
+  "author": "stevelee",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
