@@ -1,14 +1,16 @@
 @import './variables.scss';
 
+::selection{
+    background-color: $font-color;
+    color: darken($color: $font-color, $amount: 100);
+}
 
 .vt-font-sm{
     font-size: 0.8em;
 }
-
 .vt-font-md{
     font-size: 1em;
 }
-
 .vt-font-lg{
     font-size: 1.5em;
 }
@@ -16,11 +18,25 @@
 .vt-weight-thin{
     font-weight: 300
 }
-
 .vt-weight-bold{
     font-weight: 700
 }
-
 .vt-weight-bolder{
     font-weight: 900;
+}
+
+
+/**
+* Text Positions
+*/
+.align-right {
+	text-align: right;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.align-center {
+	text-align: center;
 }
